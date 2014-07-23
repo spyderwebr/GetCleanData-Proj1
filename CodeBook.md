@@ -1,4 +1,4 @@
-Introduction:
+## Introduction:
 
 This is the codebook for the "GetCleanDataProject.txt" dataset produced by R script "run_analysis.R" The "GetCleanDataProject.txt" dataset was produced by processing the "Human Activity Recognition Using Smartphones Data Set", citation: 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
@@ -10,25 +10,23 @@ The "GetCleanDataProject.txt" dataset was produced from the original dataset by 
 * processing the dataset to provide the mean for each variable across activities and subjects; and,
 * writing the processed dataset to a text file "GetCleanDataProject.txt".
 
-Variables: (there are 81 variables, appended x, y, z indicate coordinate directions, while magnitude indicates the direction independent magnitude)
+## Variables: 
+(there are 81 variables, appended x, y, z indicate coordinate directions, while magnitude indicates the direction independent magnitude)
 
 
-subjectindex
-code for subject monitored for data
-range 1 to 30
-	test subject indices: 2,4,9,10,12,13,18,20,24
-	train subject indices: 1,3,5,6,7,8,11,14,15,16,17,19,21,22,
-23,25,26,27,28,29,30
+subjectindex  
+code for subject monitored for data range 1 to 30  
+	* test subject indices: 2,4,9,10,12,13,18,20,24  
+	* train subject indices: 1,3,5,6,7,8,11,14,15,16,17,19,21,22,23,25,26,27,28,29,30  
 
-activityindex
-code for activity level monitored
-range 1 to 6 reported as factors:
-	1:            WALKING
-2:   WALKING_UPSTAIRS
-3: WALKING_DOWNSTAIRS
-4:            SITTING
-5:           STANDING
-6:             LAYING
+activityindex  
+code for activity level monitored range 1 to 6 reported as factors:  
+	* 1:            WALKING  
+	* 2:   WALKING_UPSTAIRS  
+	* 3: WALKING_DOWNSTAIRS  
+	* 4:            SITTING  
+	* 5:           STANDING  
+	* 6:             LAYING  
 
 meanaccelerationx  
 mean of original dataset variable tBodyAcc-mean()-X normalized range -1 to 1
